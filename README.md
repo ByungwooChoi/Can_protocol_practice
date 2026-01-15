@@ -99,7 +99,7 @@ python3 log_parser_verbose.py scenario.log
 
 * **`smart_ecu.py`**: 다중 역할(Multi-Role) ECU 시뮬레이터. `--role` 인자에 따라 다른 응답 로직을 수행합니다.
 * **`client.py`**: 범용 진단 클라이언트. 타겟 ID를 동적으로 설정하여 요청을 보냅니다.
-* **`log_parser_verbose.py`**: Raw Hex 로그 분석기. ISO-TP 헤더(PCI)를 분석하여 SF, FF, CF, FC 프레임을 식별하고 메시지를 재조립합니다.
+* **`log_parser.py`**: Raw Hex 로그 분석기. ISO-TP 헤더(PCI)를 분석하여 SF, FF, CF, FC 프레임을 식별하고 메시지를 재조립합니다.
 
 ## 📊 Analysis Result Example
 
