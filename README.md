@@ -4,6 +4,8 @@ Linux **SocketCAN**과 **ISO-TP (ISO 15765-2)** 프로토콜을 활용하여 가
 
 하드웨어 장비 없이 `vcan` (Virtual CAN) 인터페이스를 통해 **Bus Topology**를 구현하고, Raw CAN 로그를 파싱하여 데이터 분할/재조립(Segmentation/Reassembly) 과정을 검증하는 도구를 포함하고 있습니다.
 
+[notion summary](https://obvious-change-28c.notion.site/Coop-2ea7335aef9680a88eddc428225e8227?source=copy_link)
+
 ## 🛠 Architecture
 
 모든 노드(Node)는 `vcan0` 버스를 공유하며, **CAN ID**를 통해 서로를 식별하고 통신합니다.
